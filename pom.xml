@@ -16,6 +16,7 @@
         <scala.version>2.13.4</scala.version>
         <akka.version>2.6.13</akka.version>
         <sangria.version>2.0.1</sangria.version>
+        <circe.version>0.13.0</circe.version>
     </properties>
 
     <dependencies>
@@ -53,6 +54,21 @@
             <groupId>de.heikoseeberger</groupId>
             <artifactId>akka-http-circe_2.13</artifactId>
             <version>1.35.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.circe</groupId>
+            <artifactId>circe-core_2.13</artifactId>
+            <version>${circe.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.circe</groupId>
+            <artifactId>circe-parser_2.13</artifactId>
+            <version>${circe.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.circe</groupId>
+            <artifactId>circe-optics_2.13</artifactId>
+            <version>${circe.version}</version>
         </dependency>
         <dependency>
             <groupId>org.scala-lang</groupId>
