@@ -21,6 +21,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.200</version>
+        </dependency>
+        <dependency>
             <groupId>org.sangria-graphql</groupId>
             <artifactId>sangria_2.13</artifactId>
             <version>${sangria.version}</version>
